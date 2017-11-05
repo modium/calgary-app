@@ -24,7 +24,7 @@ class DiscoverVC: UIViewController {
 
     @IBAction func backPressed(sender: AnyObject) {
         
-        dismissViewControllerAnimated(true, completion: nil)
+        dismiss(animated: true, completion: nil)
         
     }
     /*
